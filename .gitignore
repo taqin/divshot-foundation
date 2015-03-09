@@ -2,3 +2,6 @@ divshot-example.zip
 foundation-5.5.1.zip
 .DS_Store
 .divshot-cache
+node_modules
+package.json
+gulpfile.js
