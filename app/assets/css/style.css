@@ -1,0 +1,135 @@
+.main-wrapper {
+	background-color: #EEE;
+}
+
+.left-sidebar {
+	background-color: #F5F5F5;
+    padding-top: 30px;
+	/*max-width: 250px;*/
+}
+
+.main-block {
+	background-color: #FFF;
+    padding-top: 30px;
+}
+
+.name { background-color: #2A5167; }
+    .name:hover { background-color: #336580; }
+
+.carousel .item {
+	background-color: #FFF;
+	border:5px solid #AA463D;
+	margin-left: 5px;
+	margin-right: 5px;
+    min-height: 120px;
+    text-align: center;
+}
+
+/* Slider */
+.slick-loading .slick-list
+{
+    background: #333 url('./ajax-loader.gif') center center no-repeat;
+}
+
+
+/* Icons */
+@font-face
+{
+    font-family: 'FontAwesome';
+    src: url('../font/fontawesome-webfont.eot');
+    src: url('../font/fontawesome-webfont.eot?#iefix') format('eot'), url('../font/fontawesome-webfont.woff') format('woff'), url('../font/fontawesome-webfont.ttf') format('truetype'), url('../font/fontawesome-webfont.svg#FontAwesome')    format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+/* Carousel Arrows */
+.slick-prev,
+.slick-next
+{
+    font-size: 0;
+    line-height: 0;
+
+    position: absolute;
+    top: 50%;
+
+    display: block;
+
+    width: 20px;
+    height: 20px;
+    margin-top: -10px;
+    padding: 0;
+
+    cursor: pointer;
+
+    color: transparent;
+    border: none;
+    outline: none;
+    background: transparent;
+}
+.slick-prev:hover,
+.slick-prev:focus,
+.slick-next:hover,
+.slick-next:focus
+{
+    color: transparent;
+    outline: none;
+    background: transparent;
+}
+.slick-prev:hover:before,
+.slick-prev:focus:before,
+.slick-next:hover:before,
+.slick-next:focus:before
+{
+    opacity: 1;
+}
+.slick-prev.slick-disabled:before,
+.slick-next.slick-disabled:before
+{
+    opacity: .25;
+}
+.slick-prev:before,
+.slick-next:before
+{
+    font-family: 'FontAwesome';
+    font-size: 20px;
+    line-height: 1;
+
+    opacity: .75;
+    color: #333;
+
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.slick-prev
+{
+    left: -20px;
+}
+[dir='rtl'] .slick-prev
+{
+    right: -20px;
+    left: auto;
+}
+.slick-prev:before
+{
+    content: "\f0a8";
+}
+[dir='rtl'] .slick-prev:before
+{
+    content: "\f0a8";
+}
+.slick-next
+{
+    right: -20px;
+}
+[dir='rtl'] .slick-next
+{
+    right: auto;
+    left: -20px;
+}
+.slick-next:before
+{
+    content: "\f0a9";
+}
+[dir='rtl'] .slick-next:before
+{
+    content: "\f0a9";
+}
