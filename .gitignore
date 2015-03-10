@@ -3,6 +3,5 @@
 .env.json
 node_modules
 package.json
-gulpfile.js
 divshot-example.zip
 foundation-5.5.1.zip
